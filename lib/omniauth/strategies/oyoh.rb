@@ -7,8 +7,8 @@ module OmniAuth
 
       option :client_options, {
         :site => "https://cajuncodefest.dhh.la.gov",
-        :authorize_url => "https://cajuncodefest.dhh.la.gov/oauth/authenticate",
-        :token_url => "https://cajuncodefest.dhh.la.gov/oauth/access_token"
+        :authorize_path => "/oauth/authenticate",
+        :token_path => "/oauth/access_token"
       }
 
       uid do
